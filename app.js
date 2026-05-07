@@ -4,6 +4,7 @@
 const translations = {
   en: {
     tag_vehicles:         "200 vehicles",
+    fleet_title:          "Fleet",
     tab_nr1_hint:         "Types A–E · up to 5T",
     tab_fb_hint:          "Type F · up to 33T",
     tab_contact_title:    "Contact",
@@ -11,10 +12,20 @@ const translations = {
 
     nr1_subtitle:         "Express Fleet",
     nr1_desc:             "From a single parcel to full pallet loads. Fast and reliable delivery by NR1 drivers.",
+    nr1_about:            "We handle your express shipments to and from Belgium and every European country. Envelopes, pallets or bulky goods — our fleet of vans and trucks has the right vehicle for every need. Our drivers and dispatchers are fully at your service, including loading assistance. All shipments are covered by CMR insurance.",
 
     fb_subtitle:          "Type F · Semi-Trailers",
     fb_desc:              "Heavy transport from 1g to 33 tonnes. 5 trailer configurations, all managed by the Truck Department.",
+    fb_about:             "For over 20 years, FB Logistics has specialised in express transport across Belgium and all of Europe — from 1 gram to 33 tonnes. We handle couriers, pallets and full loads with tailored solutions for professionals, including chauffeur-driven vehicles. Speed, reliability and trust are our core values.",
     fb_notice:            "📞 All Type F bookings via INT Sales: Eddy",
+
+    kf_years:             "Years of experience",
+    kf_vehicles:          "Vehicles available",
+    kf_clients:           "Loyal clients",
+    kf_range:             "Weight range",
+    conditions_btn:       "Conditions & Details",
+    condition_1:          "Every shipment is carried out in accordance with our general terms and conditions of sale and CMR conditions.",
+    condition_2:          "Our liability is covered by a CMR insurance policy.",
 
     stat_weight:          "Max Weight",
     stat_length:          "Max Length",
@@ -43,10 +54,21 @@ const translations = {
     contact_fb_role:      "Sales & domestic freight",
     contact_general_title:"General Contact",
     contact_general_role: "All departments · international & domestic",
+
+    certs_title:              "Certifications & Compliance",
+    cert_ra_title:            "Regulated Agent",
+    cert_ra_desc:             "FB Logistics is an officially recognised Regulated Agent for air freight security in Belgium. This certification guarantees that all cargo handled meets strict aviation security standards.",
+    cert_qms_title:           "Quality · Prevention · Security",
+    cert_qms_desc:            "All quality, prevention and security processes are managed through our QMS (Quality Management System), ensuring consistent standards across every operation.",
+    cert_licenses_title:      "Additional Licences",
+    cert_licenses_desc:       "Further licences and certifications are being compiled. Contact us for full details.",
+    cert_nr1_pending_title:   "Certifications — Coming Soon",
+    cert_nr1_pending_desc:    "Number One certifications are currently being gathered. Contact Patrick or Cathy for details.",
   },
 
   fr: {
     tag_vehicles:         "200 véhicules",
+    fleet_title:          "Flotte",
     tab_nr1_hint:         "Types A–E · jusqu'à 5T",
     tab_fb_hint:          "Type F · jusqu'à 33T",
     tab_contact_title:    "Contact",
@@ -54,10 +76,20 @@ const translations = {
 
     nr1_subtitle:         "Flotte Express",
     nr1_desc:             "D'un simple colis à des chargements complets. Livraison rapide et fiable par les chauffeurs NR1.",
+    nr1_about:            "Nous prenons en charge vos envois express vers et depuis la Belgique et tous les pays européens. Plis, palettes ou colis volumineux — notre flotte dispose du véhicule adapté à chaque besoin. Nos chauffeurs et dispatcheurs sont entièrement à votre service, y compris pour la manutention. Tous les envois sont couverts par une police CMR.",
 
     fb_subtitle:          "Type F · Semi-remorques",
     fb_desc:              "Transport lourd de 1g à 33 tonnes. 5 configurations de remorques, toutes gérées par le département Camions.",
+    fb_about:             "Depuis plus de 20 ans, FB Logistics est spécialiste du transport express en Belgique et à l'international — de 1 gramme à 33 tonnes. Courriers, palettes ou chargements complets, nous proposons des solutions sur mesure pour les professionnels, y compris la mise à disposition de véhicules avec chauffeur. Sérieux, rapidité et confiance sont nos maîtres-mots.",
     fb_notice:            "📞 Toutes les réservations Type F via INT Sales : Eddy",
+
+    kf_years:             "Ans d'expérience",
+    kf_vehicles:          "Véhicules disponibles",
+    kf_clients:           "Clients fidèles",
+    kf_range:             "Plage de poids",
+    conditions_btn:       "Conditions & Détails",
+    condition_1:          "Chaque envoi est effectué conformément à nos conditions générales de vente et aux conditions CMR.",
+    condition_2:          "Notre responsabilité est bien évidemment couverte par une police CMR.",
 
     stat_weight:          "Poids max",
     stat_length:          "Longueur max",
@@ -86,10 +118,21 @@ const translations = {
     contact_fb_role:      "Ventes & fret domestique",
     contact_general_title:"Contact Général",
     contact_general_role: "Tous départements · international & domestique",
+
+    certs_title:              "Certifications & Conformité",
+    cert_ra_title:            "Agent Habilité",
+    cert_ra_desc:             "FB Logistics est un Agent Habilité officiellement reconnu pour la sécurité du fret aérien en Belgique. Cette certification garantit que toutes les marchandises traitées respectent les normes strictes de sûreté aérienne.",
+    cert_qms_title:           "Qualité · Prévention · Sécurité",
+    cert_qms_desc:            "Tous les processus qualité, prévention et sécurité sont gérés via notre système QMS (Quality Management System), garantissant des standards cohérents dans chaque opération.",
+    cert_licenses_title:      "Licences supplémentaires",
+    cert_licenses_desc:       "D'autres licences et certifications sont en cours de compilation. Contactez-nous pour plus de détails.",
+    cert_nr1_pending_title:   "Certifications — Bientôt disponibles",
+    cert_nr1_pending_desc:    "Les certifications de Number One sont en cours de rassemblement. Contactez Patrick ou Cathy pour plus d'informations.",
   },
 
   nl: {
     tag_vehicles:         "200 voertuigen",
+    fleet_title:          "Vloot",
     tab_nr1_hint:         "Types A–E · tot 5T",
     tab_fb_hint:          "Type F · tot 33T",
     tab_contact_title:    "Contact",
@@ -97,10 +140,20 @@ const translations = {
 
     nr1_subtitle:         "Express Vloot",
     nr1_desc:             "Van één pakket tot volledige palletzendingen. Snelle en betrouwbare levering door NR1-chauffeurs.",
+    nr1_about:            "Wij verzorgen uw expreszendingen van en naar België en alle Europese landen. Brieven, pallets of grote goederen — onze vloot heeft het juiste voertuig voor elke nood. Onze chauffeurs en dispatchers staan volledig tot uw dienst, inclusief laadassistentie. Alle zendingen zijn gedekt door een CMR-verzekering.",
 
     fb_subtitle:          "Type F · Opleggers",
     fb_desc:              "Zwaar transport van 1g tot 33 ton. 5 opleggerconfiguraties, allemaal beheerd door de vrachtafdeling.",
+    fb_about:             "Al meer dan 20 jaar is FB Logistics specialist in exprestransport in België en heel Europa — van 1 gram tot 33 ton. Koeriers, pallets of volledige vrachten, wij bieden oplossingen op maat voor professionals, inclusief voertuigen met chauffeur. Ernstig, snel en betrouwbaar — dat zijn onze kernwaarden.",
     fb_notice:            "📞 Alle Type F-boekingen via INT Sales: Eddy",
+
+    kf_years:             "Jaar ervaring",
+    kf_vehicles:          "Voertuigen beschikbaar",
+    kf_clients:           "Trouwe klanten",
+    kf_range:             "Gewichtsbereik",
+    conditions_btn:       "Voorwaarden & Details",
+    condition_1:          "Elke zending wordt uitgevoerd conform onze algemene verkoopvoorwaarden en CMR-voorwaarden.",
+    condition_2:          "Onze aansprakelijkheid is uiteraard gedekt door een CMR-verzekeringspolis.",
 
     stat_weight:          "Max gewicht",
     stat_length:          "Max lengte",
@@ -129,6 +182,16 @@ const translations = {
     contact_fb_role:      "Verkoop & binnenlands transport",
     contact_general_title:"Algemeen Contact",
     contact_general_role: "Alle afdelingen · internationaal & binnenlands",
+
+    certs_title:              "Certificeringen & Compliance",
+    cert_ra_title:            "Erkend Agent",
+    cert_ra_desc:             "FB Logistics is een officieel erkend Erkend Agent voor luchtvrachtveiligheid in België. Deze certificering garandeert dat alle behandelde goederen voldoen aan strenge luchtvaartveiligheidsstandaarden.",
+    cert_qms_title:           "Kwaliteit · Preventie · Veiligheid",
+    cert_qms_desc:            "Alle kwaliteits-, preventie- en veiligheidsprocessen worden beheerd via ons QMS-systeem (Quality Management System), wat consistente standaarden in elke operatie garandeert.",
+    cert_licenses_title:      "Bijkomende licenties",
+    cert_licenses_desc:       "Verdere licenties en certificeringen worden momenteel samengesteld. Neem contact op voor volledige details.",
+    cert_nr1_pending_title:   "Certificeringen — Binnenkort beschikbaar",
+    cert_nr1_pending_desc:    "De certificeringen van Number One worden momenteel verzameld. Neem contact op met Patrick of Cathy voor meer informatie.",
   }
 };
 
@@ -146,6 +209,18 @@ function applyTranslations(lang) {
   });
   document.documentElement.lang = lang;
 }
+
+// ─── CONDITIONS ACCORDION ─────────────────────────────────────────────────────
+
+document.querySelectorAll('.conditions-toggle').forEach(btn => {
+  btn.addEventListener('click', () => {
+    const panel = document.getElementById(btn.dataset.target);
+    const arrow = btn.querySelector('.toggle-arrow');
+    const isOpen = panel.classList.contains('open');
+    panel.classList.toggle('open', !isOpen);
+    arrow.style.transform = isOpen ? 'rotate(0deg)' : 'rotate(90deg)';
+  });
+});
 
 // ─── LANGUAGE SWITCHER ────────────────────────────────────────────────────────
 

@@ -18,7 +18,7 @@
         </a>
         <div class="logo-divider"></div>
         <a href="https://www.number-one.be/" target="_blank" rel="noopener">
-          <img src="images/logo-nr1.png" alt="Number One Express Delivery" class="header-logo nr1-logo" />
+          <img src="images/logo-nr1.png" alt="Number One" class="header-logo nr1-logo" />
         </a>
       </div>
       <div class="header-right">
@@ -63,22 +63,32 @@
 
     <!-- NUMBER ONE -->
     <section id="tab-nr1" class="tab-section active">
-      <div class="section-intro">
-        <div class="intro-text">
-          <h2>Number One <span data-i18n="nr1_subtitle"></span></h2>
-          <p data-i18n="nr1_desc"></p>
+
+      <div class="about-strip">
+        <p data-i18n="nr1_about"></p>
+        <div class="about-strip-right">
+          <button class="conditions-toggle" data-target="nr1-conditions">
+            <span data-i18n="conditions_btn"></span>
+            <span class="toggle-arrow">›</span>
+          </button>
+        </div>
+        <div class="conditions-panel" id="nr1-conditions" style="width:100%">
+          <ul>
+            <li data-i18n="condition_1"></li>
+            <li data-i18n="condition_2"></li>
+          </ul>
         </div>
       </div>
 
+      <div class="section-title" data-i18n="fleet_title"></div>
       <div class="fleet-grid">
 
-        <!-- TYPE A -->
         <div class="vcard">
           <div class="vcard-top">
             <div class="vbadge indigo">A</div>
             <div class="vname"><strong>Type A</strong><span>Partner</span></div>
           </div>
-          <div class="vicon">🚐</div>
+          <div class="vimg"><img src="images/partner.jpg" alt="Partner" /></div>
           <div class="vstats">
             <div class="vs"><span>400 kg</span><label data-i18n="stat_weight"></label></div>
             <div class="vs"><span>1,25 m</span><label data-i18n="stat_length"></label></div>
@@ -86,13 +96,12 @@
           </div>
         </div>
 
-        <!-- TYPE B -->
         <div class="vcard">
           <div class="vcard-top">
             <div class="vbadge green">B</div>
             <div class="vname"><strong>Type B</strong><span>Vito</span></div>
           </div>
-          <div class="vicon">🚐</div>
+          <div class="vimg"><img src="images/vito.jpg" alt="Vito" /></div>
           <div class="vstats">
             <div class="vs"><span>450 kg</span><label data-i18n="stat_weight"></label></div>
             <div class="vs"><span>2,20 m</span><label data-i18n="stat_length"></label></div>
@@ -100,14 +109,13 @@
           </div>
         </div>
 
-        <!-- TYPE B+ -->
         <div class="vcard vcard-cold">
           <div class="vcard-top">
             <div class="vbadge blue">B+</div>
             <div class="vname"><strong>Type B+</strong><span data-i18n="vehicle_refrigerator"></span></div>
             <span class="cold-chip" data-i18n="cold_chip"></span>
           </div>
-          <div class="vicon">🚐</div>
+          <div class="vimg"><img src="images/vito.jpg" alt="Vito Refrigerator" /></div>
           <div class="vstats">
             <div class="vs"><span>450 kg</span><label data-i18n="stat_weight"></label></div>
             <div class="vs"><span>2,20 m</span><label data-i18n="stat_length"></label></div>
@@ -115,13 +123,12 @@
           </div>
         </div>
 
-        <!-- TYPE C -->
         <div class="vcard">
           <div class="vcard-top">
             <div class="vbadge orange">C</div>
             <div class="vname"><strong>Type C</strong><span>Sprinter</span></div>
           </div>
-          <div class="vicon">🚚</div>
+          <div class="vimg"><img src="images/sprinter.jpg" alt="Sprinter" /></div>
           <div class="vstats">
             <div class="vs"><span>450 kg</span><label data-i18n="stat_weight"></label></div>
             <div class="vs"><span>3,20 m</span><label data-i18n="stat_length"></label></div>
@@ -129,13 +136,12 @@
           </div>
         </div>
 
-        <!-- TYPE D -->
         <div class="vcard">
           <div class="vcard-top">
             <div class="vbadge purple">D</div>
             <div class="vname"><strong>Type D</strong><span data-i18n="vehicle_boxtruck"></span></div>
           </div>
-          <div class="vicon">🚛</div>
+          <div class="vimg"><img src="images/box.jpg" alt="Box Truck" /></div>
           <div class="vstats">
             <div class="vs"><span>5T</span><label data-i18n="stat_weight"></label></div>
             <div class="vs"><span>—</span><label data-i18n="stat_length"></label></div>
@@ -144,47 +150,89 @@
           <div class="por-block"><span data-i18n="por"></span></div>
         </div>
 
-        <!-- TYPE E -->
         <div class="vcard vcard-trailer">
           <div class="vcard-top">
             <div class="vbadge red">E</div>
             <div class="vname"><strong>Type E</strong><span data-i18n="vehicle_truck"></span></div>
             <span class="config-chip" data-i18n="configs_2"></span>
           </div>
-          <div class="vicon">🚛</div>
+          <div class="vimg"><img src="images/truck.jpg" alt="Truck" /></div>
           <div class="vstats">
             <div class="vs"><span>5T</span><label data-i18n="stat_weight"></label></div>
             <div class="vs"><span>—</span><label data-i18n="stat_length"></label></div>
             <div class="vs"><span>—</span><label data-i18n="stat_height"></label></div>
           </div>
-          <div class="trailer-chips">
-            <span>BACHÉ</span>
-            <span>BOX</span>
-          </div>
+          <div class="trailer-chips"><span>BACHÉ</span><span>BOX</span></div>
           <div class="por-block"><span data-i18n="por"></span></div>
         </div>
 
       </div>
+
+      <div class="certs-block">
+        <div class="certs-title" data-i18n="certs_title"></div>
+        <div class="certs-grid">
+          <div class="cert-card cert-highlight">
+            <div class="cert-icon">✈️</div>
+            <div class="cert-info">
+              <strong data-i18n="cert_ra_title"></strong>
+              <span class="cert-code">BE/RA/00181-01</span>
+            </div>
+          </div>
+          <div class="cert-card">
+            <div class="cert-icon">📋</div>
+            <div class="cert-info">
+              <strong data-i18n="cert_qms_title"></strong>
+              <span class="cert-code">QMS</span>
+            </div>
+          </div>
+          <div class="cert-card cert-pending">
+            <div class="cert-icon">🔄</div>
+            <div class="cert-info">
+              <strong data-i18n="cert_nr1_pending_title"></strong>
+              <p data-i18n="cert_nr1_pending_desc"></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
     </section>
 
     <!-- FB LOGISTICS -->
     <section id="tab-fb" class="tab-section">
-      <div class="section-intro">
-        <div class="intro-text">
-          <h2>FB Logistics <span data-i18n="fb_subtitle"></span></h2>
-          <p data-i18n="fb_desc"></p>
+
+      <div class="about-strip">
+        <p data-i18n="fb_about"></p>
+        <div class="about-strip-right">
+          <div class="key-figures-inline">
+            <div class="kf-pill"><span>20+</span><label data-i18n="kf_years"></label></div>
+            <div class="kf-pill"><span>100+</span><label data-i18n="kf_vehicles"></label></div>
+            <div class="kf-pill"><span>500+</span><label data-i18n="kf_clients"></label></div>
+            <div class="kf-pill"><span>1g–33T</span><label data-i18n="kf_range"></label></div>
+          </div>
+          <button class="conditions-toggle" data-target="fb-conditions">
+            <span data-i18n="conditions_btn"></span>
+            <span class="toggle-arrow">›</span>
+          </button>
+        </div>
+        <div class="conditions-panel" id="fb-conditions" style="width:100%">
+          <ul>
+            <li data-i18n="condition_1"></li>
+            <li data-i18n="condition_2"></li>
+          </ul>
         </div>
       </div>
 
+
+      <div class="section-title" data-i18n="fleet_title"></div>
       <div class="semi-grid">
 
         <div class="scard">
-          <div class="scard-left">
-            <div class="scard-icon">🚛</div>
+          <div class="scard-img"><img src="images/trailer.jpg" alt="Semi-trailer" /></div>
+          <div class="scard-head">
             <div class="scard-typef">TYPE F</div>
+            <div class="scard-name">Baché</div>
           </div>
           <div class="scard-body">
-            <h3>Baché</h3>
             <p data-i18n="semi_bache_desc"></p>
             <div class="sspecs">
               <div class="sspec"><span>33T</span><label data-i18n="stat_weight"></label></div>
@@ -196,12 +244,12 @@
         </div>
 
         <div class="scard">
-          <div class="scard-left">
-            <div class="scard-icon">🚛</div>
+          <div class="scard-img"><img src="images/trailer.jpg" alt="Semi-trailer" /></div>
+          <div class="scard-head">
             <div class="scard-typef">TYPE F</div>
+            <div class="scard-name">Box</div>
           </div>
           <div class="scard-body">
-            <h3>Box</h3>
             <p data-i18n="semi_box_desc"></p>
             <div class="sspecs">
               <div class="sspec"><span>33T</span><label data-i18n="stat_weight"></label></div>
@@ -213,12 +261,12 @@
         </div>
 
         <div class="scard scard-cold">
-          <div class="scard-left">
-            <div class="scard-icon">🚛</div>
+          <div class="scard-img"><img src="images/trailer.jpg" alt="Semi-trailer" /></div>
+          <div class="scard-head">
             <div class="scard-typef">TYPE F</div>
+            <div class="scard-name">Frigo ❄</div>
           </div>
           <div class="scard-body">
-            <h3>Frigo ❄</h3>
             <p data-i18n="semi_frigo_desc"></p>
             <div class="sspecs">
               <div class="sspec"><span>33T</span><label data-i18n="stat_weight"></label></div>
@@ -230,12 +278,12 @@
         </div>
 
         <div class="scard scard-cold">
-          <div class="scard-left">
-            <div class="scard-icon">🚛</div>
+          <div class="scard-img"><img src="images/trailer.jpg" alt="Semi-trailer" /></div>
+          <div class="scard-head">
             <div class="scard-typef">TYPE F</div>
+            <div class="scard-name">City Frigo ❄</div>
           </div>
           <div class="scard-body">
-            <h3>City Frigo ❄</h3>
             <p data-i18n="semi_cityfrigo_desc"></p>
             <div class="sspecs">
               <div class="sspec"><span>33T</span><label data-i18n="stat_weight"></label></div>
@@ -247,12 +295,12 @@
         </div>
 
         <div class="scard">
-          <div class="scard-left">
-            <div class="scard-icon">🚛</div>
+          <div class="scard-img"><img src="images/trailer.jpg" alt="Semi-trailer" /></div>
+          <div class="scard-head">
             <div class="scard-typef">TYPE F</div>
+            <div class="scard-name">City</div>
           </div>
           <div class="scard-body">
-            <h3>City</h3>
             <p data-i18n="semi_city_desc"></p>
             <div class="sspecs">
               <div class="sspec"><span>33T</span><label data-i18n="stat_weight"></label></div>
@@ -264,17 +312,38 @@
         </div>
 
       </div>
+
+      <div class="certs-block">
+        <div class="certs-title" data-i18n="certs_title"></div>
+        <div class="certs-grid">
+          <div class="cert-card cert-highlight">
+            <div class="cert-icon">✈️</div>
+            <div class="cert-info">
+              <strong data-i18n="cert_ra_title"></strong>
+              <span class="cert-code">BE/RA/00181-01</span>
+            </div>
+          </div>
+          <div class="cert-card">
+            <div class="cert-icon">📋</div>
+            <div class="cert-info">
+              <strong data-i18n="cert_qms_title"></strong>
+              <span class="cert-code">QMS</span>
+            </div>
+          </div>
+          <div class="cert-card cert-pending">
+            <div class="cert-icon">🔄</div>
+            <div class="cert-info">
+              <strong data-i18n="cert_licenses_title"></strong>
+              <p data-i18n="cert_licenses_desc"></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
     </section>
 
     <!-- CONTACT -->
     <section id="tab-contact" class="tab-section">
-      <div class="section-intro">
-        <div class="intro-text">
-          <h2 data-i18n="contact_title"></h2>
-          <p data-i18n="contact_desc"></p>
-        </div>
-      </div>
-
       <div class="contact-grid">
 
         <div class="ccard">
@@ -283,24 +352,15 @@
           <p class="crole" data-i18n="contact_nr1_role"></p>
           <div class="cperson">
             <span class="cicon">👤</span>
-            <div>
-              <strong>Yassin Allali</strong>
-              <a class="cemail" href="mailto:yassin@number-one.be">yassin@number-one.be</a>
-            </div>
+            <div><strong>Yassin Allali</strong><a class="cemail" href="mailto:yassin@number-one.be">yassin@number-one.be</a></div>
           </div>
           <div class="cperson">
             <span class="cicon">👤</span>
-            <div>
-              <strong>Eric Falaux</strong>
-              <a class="cemail" href="mailto:eric@number-one.be">eric@number-one.be</a>
-            </div>
+            <div><strong>Eric Falaux</strong><a class="cemail" href="mailto:eric@number-one.be">eric@number-one.be</a></div>
           </div>
           <div class="cperson">
             <span class="cicon">📬</span>
-            <div>
-              <strong>Express</strong>
-              <a class="cemail" href="mailto:express@number-one.be">express@number-one.be</a>
-            </div>
+            <div><strong>Express</strong><a class="cemail" href="mailto:express@number-one.be">express@number-one.be</a></div>
           </div>
         </div>
 
@@ -310,17 +370,11 @@
           <p class="crole" data-i18n="contact_fb_role"></p>
           <div class="cperson">
             <span class="cicon">👤</span>
-            <div>
-              <strong>Anna Zarandia</strong>
-              <a class="cemail" href="mailto:anna.zarandia@fblogistics.be">anna.zarandia@fblogistics.be</a>
-            </div>
+            <div><strong>Anna Zarandia</strong><a class="cemail" href="mailto:anna.zarandia@fblogistics.be">anna.zarandia@fblogistics.be</a></div>
           </div>
           <div class="cperson">
             <span class="cicon">📬</span>
-            <div>
-              <strong>Sales</strong>
-              <a class="cemail" href="mailto:sales@fblogistics.be">sales@fblogistics.be</a>
-            </div>
+            <div><strong>Sales</strong><a class="cemail" href="mailto:sales@fblogistics.be">sales@fblogistics.be</a></div>
           </div>
         </div>
 
@@ -330,17 +384,11 @@
           <p class="crole" data-i18n="contact_general_role"></p>
           <div class="cperson">
             <span class="cicon">👤</span>
-            <div>
-              <strong>Eddy Martens</strong>
-              <a class="cemail" href="mailto:Eddy.martens@fblogistics.be">Eddy.martens@fblogistics.be</a>
-            </div>
+            <div><strong>Eddy Martens</strong><a class="cemail" href="mailto:Eddy.martens@fblogistics.be">Eddy.martens@fblogistics.be</a></div>
           </div>
           <div class="cperson">
             <span class="cicon">👤</span>
-            <div>
-              <strong>Christophe Vandenberghe</strong>
-              <a class="cemail" href="mailto:christophe.vdb@fblogistics.be">christophe.vdb@fblogistics.be</a>
-            </div>
+            <div><strong>Christophe Vandenberghe</strong><a class="cemail" href="mailto:christophe.vdb@fblogistics.be">christophe.vdb@fblogistics.be</a></div>
           </div>
         </div>
 
@@ -356,4 +404,4 @@
 
   <script src="app.js"></script>
 </body>
-</html>
+</html>s
