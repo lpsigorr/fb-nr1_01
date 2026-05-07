@@ -97,30 +97,30 @@ main { max-width: 1200px; margin: 0 auto; padding: 20px 24px; }
 /* VEHICLE IMAGES */
 .vimg {
   width: 100%;
-  height: 80px;
+  height: 75px;
   border-radius: 6px;
   overflow: hidden;
-  background: var(--bg);
+  background: #f8f8f8;
 }
 .vimg img {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: center;
+  object-position: center 65%;
   display: block;
 }
 
 .scard-img {
   width: 100%;
-  height: 90px;
+  height: 80px;
   overflow: hidden;
-  background: var(--bg);
+  background: #f8f8f8;
 }
 .scard-img img {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: center;
+  object-position: center 65%;
   display: block;
 }
 
