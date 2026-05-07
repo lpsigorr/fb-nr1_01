@@ -17,9 +17,16 @@
         <div class="logo-divider"></div>
         <img src="images/logo-nr1.png" alt="Number One Express Delivery" class="header-logo nr1-logo" />
       </div>
-      <div class="header-tags">
-        <span class="htag">200 vehicles</span>
-        <span class="htag htag-accent">Express-Rate 2025</span>
+      <div class="header-right">
+        <div class="header-tags">
+          <span class="htag" data-i18n="tag_vehicles"></span>
+          <span class="htag htag-accent">Express-Rate 2025</span>
+        </div>
+        <div class="lang-switcher">
+          <button class="lang-btn active" data-lang="en">EN</button>
+          <button class="lang-btn" data-lang="fr">FR</button>
+          <button class="lang-btn" data-lang="nl">NL</button>
+        </div>
       </div>
     </div>
   </header>
@@ -29,21 +36,21 @@
       <span class="tab-icon">🚐</span>
       <div class="tab-text">
         <span class="tab-title">Number One</span>
-        <span class="tab-hint">Types A–E · up to 5T</span>
+        <span class="tab-hint" data-i18n="tab_nr1_hint"></span>
       </div>
     </button>
     <button class="tab" data-tab="fb">
       <span class="tab-icon">🚛</span>
       <div class="tab-text">
         <span class="tab-title">FB Logistics</span>
-        <span class="tab-hint">Type F · up to 33T</span>
+        <span class="tab-hint" data-i18n="tab_fb_hint"></span>
       </div>
     </button>
     <button class="tab" data-tab="contact">
       <span class="tab-icon">📬</span>
       <div class="tab-text">
-        <span class="tab-title">Contact</span>
-        <span class="tab-hint">Orders & Sales</span>
+        <span class="tab-title" data-i18n="tab_contact_title"></span>
+        <span class="tab-hint" data-i18n="tab_contact_hint"></span>
       </div>
     </button>
   </nav>
@@ -54,8 +61,8 @@
     <section id="tab-nr1" class="tab-section active">
       <div class="section-intro">
         <div class="intro-text">
-          <h2>Number One <span>Express Fleet</span></h2>
-          <p>From a single parcel to full pallet loads. Fast and reliable delivery by NR1 drivers.</p>
+          <h2>Number One <span data-i18n="nr1_subtitle"></span></h2>
+          <p data-i18n="nr1_desc"></p>
         </div>
       </div>
 
@@ -69,9 +76,9 @@
           </div>
           <div class="vicon">🚐</div>
           <div class="vstats">
-            <div class="vs"><span>400 kg</span><label>Max Weight</label></div>
-            <div class="vs"><span>1,25 m</span><label>Max Length</label></div>
-            <div class="vs"><span>1,00 m</span><label>Max Height</label></div>
+            <div class="vs"><span>400 kg</span><label data-i18n="stat_weight"></label></div>
+            <div class="vs"><span>1,25 m</span><label data-i18n="stat_length"></label></div>
+            <div class="vs"><span>1,00 m</span><label data-i18n="stat_height"></label></div>
           </div>
         </div>
 
@@ -83,9 +90,9 @@
           </div>
           <div class="vicon">🚐</div>
           <div class="vstats">
-            <div class="vs"><span>450 kg</span><label>Max Weight</label></div>
-            <div class="vs"><span>2,20 m</span><label>Max Length</label></div>
-            <div class="vs"><span>1,10 m</span><label>Max Height</label></div>
+            <div class="vs"><span>450 kg</span><label data-i18n="stat_weight"></label></div>
+            <div class="vs"><span>2,20 m</span><label data-i18n="stat_length"></label></div>
+            <div class="vs"><span>1,10 m</span><label data-i18n="stat_height"></label></div>
           </div>
         </div>
 
@@ -93,14 +100,14 @@
         <div class="vcard vcard-cold">
           <div class="vcard-top">
             <div class="vbadge blue">B+</div>
-            <div class="vname"><strong>Type B+</strong><span>Refrigerator</span></div>
-            <span class="cold-chip">❄ Cold</span>
+            <div class="vname"><strong>Type B+</strong><span data-i18n="vehicle_refrigerator"></span></div>
+            <span class="cold-chip" data-i18n="cold_chip"></span>
           </div>
           <div class="vicon">🚐</div>
           <div class="vstats">
-            <div class="vs"><span>450 kg</span><label>Max Weight</label></div>
-            <div class="vs"><span>2,20 m</span><label>Max Length</label></div>
-            <div class="vs"><span>1,10 m</span><label>Max Height</label></div>
+            <div class="vs"><span>450 kg</span><label data-i18n="stat_weight"></label></div>
+            <div class="vs"><span>2,20 m</span><label data-i18n="stat_length"></label></div>
+            <div class="vs"><span>1,10 m</span><label data-i18n="stat_height"></label></div>
           </div>
         </div>
 
@@ -112,9 +119,9 @@
           </div>
           <div class="vicon">🚚</div>
           <div class="vstats">
-            <div class="vs"><span>450 kg</span><label>Max Weight</label></div>
-            <div class="vs"><span>3,20 m</span><label>Max Length</label></div>
-            <div class="vs"><span>1,60 m</span><label>Max Height</label></div>
+            <div class="vs"><span>450 kg</span><label data-i18n="stat_weight"></label></div>
+            <div class="vs"><span>3,20 m</span><label data-i18n="stat_length"></label></div>
+            <div class="vs"><span>1,60 m</span><label data-i18n="stat_height"></label></div>
           </div>
         </div>
 
@@ -122,39 +129,35 @@
         <div class="vcard">
           <div class="vcard-top">
             <div class="vbadge purple">D</div>
-            <div class="vname"><strong>Type D</strong><span>Box Truck</span></div>
+            <div class="vname"><strong>Type D</strong><span data-i18n="vehicle_boxtruck"></span></div>
           </div>
           <div class="vicon">🚛</div>
           <div class="vstats">
-            <div class="vs"><span>5T</span><label>Max Weight</label></div>
-            <div class="vs"><span>—</span><label>Max Length</label></div>
-            <div class="vs"><span>—</span><label>Max Height</label></div>
+            <div class="vs"><span>5T</span><label data-i18n="stat_weight"></label></div>
+            <div class="vs"><span>—</span><label data-i18n="stat_length"></label></div>
+            <div class="vs"><span>—</span><label data-i18n="stat_height"></label></div>
           </div>
-          <div class="por-block">
-            <span>💬 Price on Request</span>
-          </div>
+          <div class="por-block"><span data-i18n="por"></span></div>
         </div>
 
         <!-- TYPE E -->
         <div class="vcard vcard-trailer">
           <div class="vcard-top">
             <div class="vbadge red">E</div>
-            <div class="vname"><strong>Type E</strong><span>Truck</span></div>
-            <span class="config-chip">2 configs</span>
+            <div class="vname"><strong>Type E</strong><span data-i18n="vehicle_truck"></span></div>
+            <span class="config-chip" data-i18n="configs_2"></span>
           </div>
           <div class="vicon">🚛</div>
           <div class="vstats">
-            <div class="vs"><span>5T</span><label>Max Weight</label></div>
-            <div class="vs"><span>—</span><label>Max Length</label></div>
-            <div class="vs"><span>—</span><label>Max Height</label></div>
+            <div class="vs"><span>5T</span><label data-i18n="stat_weight"></label></div>
+            <div class="vs"><span>—</span><label data-i18n="stat_length"></label></div>
+            <div class="vs"><span>—</span><label data-i18n="stat_height"></label></div>
           </div>
           <div class="trailer-chips">
             <span>BACHÉ</span>
             <span>BOX</span>
           </div>
-          <div class="por-block">
-            <span>💬 Price on Request</span>
-          </div>
+          <div class="por-block"><span data-i18n="por"></span></div>
         </div>
 
       </div>
@@ -164,8 +167,8 @@
     <section id="tab-fb" class="tab-section">
       <div class="section-intro">
         <div class="intro-text">
-          <h2>FB Logistics <span>Type F · Semi-Trailers</span></h2>
-          <p>Heavy transport from 1g to 33 tonnes. 5 trailer configurations, all managed by the Truck Department.</p>
+          <h2>FB Logistics <span data-i18n="fb_subtitle"></span></h2>
+          <p data-i18n="fb_desc"></p>
         </div>
       </div>
 
@@ -178,13 +181,13 @@
           </div>
           <div class="scard-body">
             <h3>Baché</h3>
-            <p>Tarpaulin semi-trailer with open sides for easy multi-angle loading. Ideal for standard freight and oversized loads.</p>
+            <p data-i18n="semi_bache_desc"></p>
             <div class="sspecs">
-              <div class="sspec"><span>33T</span><label>Max Weight</label></div>
-              <div class="sspec"><span>90 m³</span><label>Volume</label></div>
-              <div class="sspec"><span>33 pal.</span><label>Pallets</label></div>
+              <div class="sspec"><span>33T</span><label data-i18n="stat_weight"></label></div>
+              <div class="sspec"><span>90 m³</span><label data-i18n="stat_volume"></label></div>
+              <div class="sspec"><span>33 pal.</span><label data-i18n="stat_pallets"></label></div>
             </div>
-            <div class="por-block"><span>💬 Price on Request</span></div>
+            <div class="por-block"><span data-i18n="por"></span></div>
           </div>
         </div>
 
@@ -195,13 +198,13 @@
           </div>
           <div class="scard-body">
             <h3>Box</h3>
-            <p>Fully enclosed box trailer. Secure and weatherproof for sensitive or high-value cargo.</p>
+            <p data-i18n="semi_box_desc"></p>
             <div class="sspecs">
-              <div class="sspec"><span>33T</span><label>Max Weight</label></div>
-              <div class="sspec"><span>90 m³</span><label>Volume</label></div>
-              <div class="sspec"><span>33 pal.</span><label>Pallets</label></div>
+              <div class="sspec"><span>33T</span><label data-i18n="stat_weight"></label></div>
+              <div class="sspec"><span>90 m³</span><label data-i18n="stat_volume"></label></div>
+              <div class="sspec"><span>33 pal.</span><label data-i18n="stat_pallets"></label></div>
             </div>
-            <div class="por-block"><span>💬 Price on Request</span></div>
+            <div class="por-block"><span data-i18n="por"></span></div>
           </div>
         </div>
 
@@ -212,13 +215,13 @@
           </div>
           <div class="scard-body">
             <h3>Frigo ❄</h3>
-            <p>Full refrigerated semi-trailer for large cold chain shipments. Temperature-controlled throughout.</p>
+            <p data-i18n="semi_frigo_desc"></p>
             <div class="sspecs">
-              <div class="sspec"><span>33T</span><label>Max Weight</label></div>
-              <div class="sspec"><span>90 m³</span><label>Volume</label></div>
-              <div class="sspec"><span>33 pal.</span><label>Pallets</label></div>
+              <div class="sspec"><span>33T</span><label data-i18n="stat_weight"></label></div>
+              <div class="sspec"><span>90 m³</span><label data-i18n="stat_volume"></label></div>
+              <div class="sspec"><span>33 pal.</span><label data-i18n="stat_pallets"></label></div>
             </div>
-            <div class="por-block"><span>💬 Price on Request</span></div>
+            <div class="por-block"><span data-i18n="por"></span></div>
           </div>
         </div>
 
@@ -229,13 +232,13 @@
           </div>
           <div class="scard-body">
             <h3>City Frigo ❄</h3>
-            <p>Refrigerated semi adapted for urban routes. Compact enough for city access restrictions.</p>
+            <p data-i18n="semi_cityfrigo_desc"></p>
             <div class="sspecs">
-              <div class="sspec"><span>33T</span><label>Max Weight</label></div>
-              <div class="sspec"><span>90 m³</span><label>Volume</label></div>
-              <div class="sspec"><span>33 pal.</span><label>Pallets</label></div>
+              <div class="sspec"><span>33T</span><label data-i18n="stat_weight"></label></div>
+              <div class="sspec"><span>90 m³</span><label data-i18n="stat_volume"></label></div>
+              <div class="sspec"><span>33 pal.</span><label data-i18n="stat_pallets"></label></div>
             </div>
-            <div class="por-block"><span>💬 Price on Request</span></div>
+            <div class="por-block"><span data-i18n="por"></span></div>
           </div>
         </div>
 
@@ -246,13 +249,13 @@
           </div>
           <div class="scard-body">
             <h3>City</h3>
-            <p>Standard urban semi-trailer optimized for last-mile delivery in dense city environments.</p>
+            <p data-i18n="semi_city_desc"></p>
             <div class="sspecs">
-              <div class="sspec"><span>33T</span><label>Max Weight</label></div>
-              <div class="sspec"><span>90 m³</span><label>Volume</label></div>
-              <div class="sspec"><span>33 pal.</span><label>Pallets</label></div>
+              <div class="sspec"><span>33T</span><label data-i18n="stat_weight"></label></div>
+              <div class="sspec"><span>90 m³</span><label data-i18n="stat_volume"></label></div>
+              <div class="sspec"><span>33 pal.</span><label data-i18n="stat_pallets"></label></div>
             </div>
-            <div class="por-block"><span>💬 Price on Request</span></div>
+            <div class="por-block"><span data-i18n="por"></span></div>
           </div>
         </div>
 
@@ -263,8 +266,8 @@
     <section id="tab-contact" class="tab-section">
       <div class="section-intro">
         <div class="intro-text">
-          <h2>Contact <span>& Orders</span></h2>
-          <p>Reach the right person for your shipment. Click any email to open your mail client directly.</p>
+          <h2 data-i18n="contact_title"></h2>
+          <p data-i18n="contact_desc"></p>
         </div>
       </div>
 
@@ -272,8 +275,8 @@
 
         <div class="ccard">
           <div class="cbrand nr-brand">Number One</div>
-          <h3>NR1 Orders</h3>
-          <p class="crole">Types A → E · Express fleet</p>
+          <h3 data-i18n="contact_nr1_title"></h3>
+          <p class="crole" data-i18n="contact_nr1_role"></p>
           <div class="cperson">
             <span class="cicon">👤</span>
             <div>
@@ -292,8 +295,8 @@
 
         <div class="ccard">
           <div class="cbrand fb-brand">FB Logistics</div>
-          <h3>FB Sales</h3>
-          <p class="crole">Sales & domestic freight</p>
+          <h3 data-i18n="contact_fb_title"></h3>
+          <p class="crole" data-i18n="contact_fb_role"></p>
           <div class="cperson">
             <span class="cicon">👤</span>
             <div>
@@ -305,8 +308,8 @@
 
         <div class="ccard">
           <div class="cbrand both-brand">FB + NR1</div>
-          <h3>General Contact</h3>
-          <p class="crole">All departments · international & domestic</p>
+          <h3 data-i18n="contact_general_title"></h3>
+          <p class="crole" data-i18n="contact_general_role"></p>
           <div class="cperson">
             <span class="cicon">👤</span>
             <div>
