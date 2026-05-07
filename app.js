@@ -45,6 +45,9 @@ const translations = {
     semi_frigo_desc:      "Full refrigerated semi-trailer for large cold chain shipments. Temperature-controlled throughout.",
     semi_cityfrigo_desc:  "Refrigerated semi adapted for urban routes. Compact enough for city access restrictions.",
     semi_city_desc:       "Standard urban semi-trailer optimized for last-mile delivery in dense city environments.",
+    semi_mega_desc:       "High-volume mega trailer with maximum capacity. Available in standard, baché and frigo box configurations.",
+    variant_normal:       "Normal",
+    variant_frigo_box:    "Frigo Box",
 
     contact_title:        "Contact & Orders",
     contact_desc:         "Reach the right person for your shipment. Click any email to open your mail client directly.",
@@ -109,6 +112,9 @@ const translations = {
     semi_frigo_desc:      "Semi-remorque frigorifique pour les grands transports en chaîne du froid. Température contrôlée tout au long du trajet.",
     semi_cityfrigo_desc:  "Semi frigorifique adapté aux trajets urbains. Suffisamment compact pour les restrictions d'accès en ville.",
     semi_city_desc:       "Semi-remorque urbaine standard, optimisée pour la livraison du dernier kilomètre en milieu dense.",
+    semi_mega_desc:       "Remorque mega grand volume avec capacité maximale. Disponible en configuration normale, baché et frigo box.",
+    variant_normal:       "Normal",
+    variant_frigo_box:    "Frigo Box",
 
     contact_title:        "Contact & Commandes",
     contact_desc:         "Contactez la bonne personne pour votre envoi. Cliquez sur un e-mail pour ouvrir directement votre client mail.",
@@ -173,6 +179,9 @@ const translations = {
     semi_frigo_desc:      "Volledige koele oplegger voor grote koelketentransport. Temperatuurgecontroleerd gedurende de volledige rit.",
     semi_cityfrigo_desc:  "Gekoelde oplegger aangepast voor stedelijke routes. Compact genoeg voor toegangsbeperkingen in de stad.",
     semi_city_desc:       "Standaard stedelijke oplegger geoptimaliseerd voor last-mile levering in dichte stadsomgevingen.",
+    semi_mega_desc:       "Mega-oplegger met maximale capaciteit. Beschikbaar in normale, baché en frigo box configuraties.",
+    variant_normal:       "Normaal",
+    variant_frigo_box:    "Frigo Box",
 
     contact_title:        "Contact & Bestellingen",
     contact_desc:         "Bereik de juiste persoon voor uw zending. Klik op een e-mail om uw mailclient direct te openen.",

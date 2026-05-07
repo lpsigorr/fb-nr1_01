@@ -24,7 +24,7 @@
       <div class="header-right">
         <div class="header-tags">
           <span class="htag" data-i18n="tag_vehicles"></span>
-          <span class="htag htag-accent">Express-Rate 2025</span>
+          <span class="htag htag-accent">Express-Rate 2026</span>
         </div>
         <div class="lang-switcher">
           <button class="lang-btn active" data-lang="en">EN</button>
@@ -36,18 +36,18 @@
   </header>
 
   <nav class="tabs">
-    <button class="tab active" data-tab="nr1">
-      <span class="tab-icon">🚐</span>
-      <div class="tab-text">
-        <span class="tab-title">Number One</span>
-        <span class="tab-hint" data-i18n="tab_nr1_hint"></span>
-      </div>
-    </button>
-    <button class="tab" data-tab="fb">
+    <button class="tab active" data-tab="fb">
       <span class="tab-icon">🚛</span>
       <div class="tab-text">
         <span class="tab-title">FB Logistics</span>
         <span class="tab-hint" data-i18n="tab_fb_hint"></span>
+      </div>
+    </button>
+    <button class="tab" data-tab="nr1">
+      <span class="tab-icon">🚐</span>
+      <div class="tab-text">
+        <span class="tab-title">Number One</span>
+        <span class="tab-hint" data-i18n="tab_nr1_hint"></span>
       </div>
     </button>
     <button class="tab" data-tab="contact">
@@ -62,22 +62,11 @@
   <main>
 
     <!-- NUMBER ONE -->
-    <section id="tab-nr1" class="tab-section active">
+    <section id="tab-nr1" class="tab-section">
 
       <div class="about-strip">
         <p data-i18n="nr1_about"></p>
-        <div class="about-strip-right">
-          <button class="conditions-toggle" data-target="nr1-conditions">
-            <span data-i18n="conditions_btn"></span>
-            <span class="toggle-arrow">›</span>
-          </button>
-        </div>
-        <div class="conditions-panel" id="nr1-conditions" style="width:100%">
-          <ul>
-            <li data-i18n="condition_1"></li>
-            <li data-i18n="condition_2"></li>
-          </ul>
-        </div>
+        <div class="about-strip-right"></div>
       </div>
 
       <div class="section-title" data-i18n="fleet_title"></div>
@@ -147,7 +136,6 @@
             <div class="vs"><span>—</span><label data-i18n="stat_length"></label></div>
             <div class="vs"><span>—</span><label data-i18n="stat_height"></label></div>
           </div>
-          <div class="por-block"><span data-i18n="por"></span></div>
         </div>
 
         <div class="vcard vcard-trailer">
@@ -163,7 +151,6 @@
             <div class="vs"><span>—</span><label data-i18n="stat_height"></label></div>
           </div>
           <div class="trailer-chips"><span>BACHÉ</span><span>BOX</span></div>
-          <div class="por-block"><span data-i18n="por"></span></div>
         </div>
 
       </div>
@@ -185,20 +172,14 @@
               <span class="cert-code">QMS</span>
             </div>
           </div>
-          <div class="cert-card cert-pending">
-            <div class="cert-icon">🔄</div>
-            <div class="cert-info">
-              <strong data-i18n="cert_nr1_pending_title"></strong>
-              <p data-i18n="cert_nr1_pending_desc"></p>
-            </div>
-          </div>
+          
         </div>
       </div>
 
     </section>
 
     <!-- FB LOGISTICS -->
-    <section id="tab-fb" class="tab-section">
+    <section id="tab-fb" class="tab-section active">
 
       <div class="about-strip">
         <p data-i18n="fb_about"></p>
@@ -209,22 +190,29 @@
             <div class="kf-pill"><span>500+</span><label data-i18n="kf_clients"></label></div>
             <div class="kf-pill"><span>1g–33T</span><label data-i18n="kf_range"></label></div>
           </div>
-          <button class="conditions-toggle" data-target="fb-conditions">
-            <span data-i18n="conditions_btn"></span>
-            <span class="toggle-arrow">›</span>
-          </button>
-        </div>
-        <div class="conditions-panel" id="fb-conditions" style="width:100%">
-          <ul>
-            <li data-i18n="condition_1"></li>
-            <li data-i18n="condition_2"></li>
-          </ul>
         </div>
       </div>
 
-
       <div class="section-title" data-i18n="fleet_title"></div>
       <div class="semi-grid">
+
+        <div class="scard">
+          <div class="scard-img"><img src="images/trailer.jpg" alt="Semi-trailer" /></div>
+          <div class="scard-head">
+            <div class="scard-typef">TYPE F</div>
+            <div class="scard-name">City</div>
+          </div>
+          <div class="scard-body">
+            <p data-i18n="semi_city_desc"></p>
+            <div class="sspecs">
+              <div class="sspec"><span>20T</span><label data-i18n="stat_weight"></label></div>
+              <div class="sspec"><span>70 m³</span><label data-i18n="stat_volume"></label></div>
+              <div class="sspec"><span>28 pal.</span><label data-i18n="stat_pallets"></label></div>
+            </div>
+            <div class="trailer-chips"><span>BOX</span><span>FRIGO</span></div>
+            <div class="por-block"><span data-i18n="por"></span></div>
+          </div>
+        </div>
 
         <div class="scard">
           <div class="scard-img"><img src="images/trailer.jpg" alt="Semi-trailer" /></div>
@@ -235,9 +223,9 @@
           <div class="scard-body">
             <p data-i18n="semi_bache_desc"></p>
             <div class="sspecs">
-              <div class="sspec"><span>33T</span><label data-i18n="stat_weight"></label></div>
-              <div class="sspec"><span>90 m³</span><label data-i18n="stat_volume"></label></div>
-              <div class="sspec"><span>33 pal.</span><label data-i18n="stat_pallets"></label></div>
+              <div class="sspec"><span>24T</span><label data-i18n="stat_weight"></label></div>
+              <div class="sspec"><span>85 m³</span><label data-i18n="stat_volume"></label></div>
+              <div class="sspec"><span>34 pal.</span><label data-i18n="stat_pallets"></label></div>
             </div>
             <div class="por-block"><span data-i18n="por"></span></div>
           </div>
@@ -252,9 +240,9 @@
           <div class="scard-body">
             <p data-i18n="semi_box_desc"></p>
             <div class="sspecs">
-              <div class="sspec"><span>33T</span><label data-i18n="stat_weight"></label></div>
-              <div class="sspec"><span>90 m³</span><label data-i18n="stat_volume"></label></div>
-              <div class="sspec"><span>33 pal.</span><label data-i18n="stat_pallets"></label></div>
+              <div class="sspec"><span>24T</span><label data-i18n="stat_weight"></label></div>
+              <div class="sspec"><span>85 m³</span><label data-i18n="stat_volume"></label></div>
+              <div class="sspec"><span>34 pal.</span><label data-i18n="stat_pallets"></label></div>
             </div>
             <div class="por-block"><span data-i18n="por"></span></div>
           </div>
@@ -269,44 +257,28 @@
           <div class="scard-body">
             <p data-i18n="semi_frigo_desc"></p>
             <div class="sspecs">
-              <div class="sspec"><span>33T</span><label data-i18n="stat_weight"></label></div>
-              <div class="sspec"><span>90 m³</span><label data-i18n="stat_volume"></label></div>
-              <div class="sspec"><span>33 pal.</span><label data-i18n="stat_pallets"></label></div>
+              <div class="sspec"><span>24T</span><label data-i18n="stat_weight"></label></div>
+              <div class="sspec"><span>85 m³</span><label data-i18n="stat_volume"></label></div>
+              <div class="sspec"><span>34 pal.</span><label data-i18n="stat_pallets"></label></div>
             </div>
             <div class="por-block"><span data-i18n="por"></span></div>
           </div>
         </div>
 
-        <div class="scard scard-cold">
+        <div class="scard scard-mega">
           <div class="scard-img"><img src="images/trailer.jpg" alt="Semi-trailer" /></div>
           <div class="scard-head">
             <div class="scard-typef">TYPE F</div>
-            <div class="scard-name">City Frigo ❄</div>
+            <div class="scard-name">Mega</div>
           </div>
           <div class="scard-body">
-            <p data-i18n="semi_cityfrigo_desc"></p>
+            <p data-i18n="semi_mega_desc"></p>
             <div class="sspecs">
-              <div class="sspec"><span>33T</span><label data-i18n="stat_weight"></label></div>
-              <div class="sspec"><span>90 m³</span><label data-i18n="stat_volume"></label></div>
-              <div class="sspec"><span>33 pal.</span><label data-i18n="stat_pallets"></label></div>
+              <div class="sspec"><span>24T</span><label data-i18n="stat_weight"></label></div>
+              <div class="sspec"><span>98 m³</span><label data-i18n="stat_volume"></label></div>
+              <div class="sspec"><span>34 pal.</span><label data-i18n="stat_pallets"></label></div>
             </div>
-            <div class="por-block"><span data-i18n="por"></span></div>
-          </div>
-        </div>
-
-        <div class="scard">
-          <div class="scard-img"><img src="images/trailer.jpg" alt="Semi-trailer" /></div>
-          <div class="scard-head">
-            <div class="scard-typef">TYPE F</div>
-            <div class="scard-name">City</div>
-          </div>
-          <div class="scard-body">
-            <p data-i18n="semi_city_desc"></p>
-            <div class="sspecs">
-              <div class="sspec"><span>33T</span><label data-i18n="stat_weight"></label></div>
-              <div class="sspec"><span>90 m³</span><label data-i18n="stat_volume"></label></div>
-              <div class="sspec"><span>33 pal.</span><label data-i18n="stat_pallets"></label></div>
-            </div>
+            <div class="trailer-chips"><span>BOX</span><span>BACHÉ</span><span>FRIGO</span></div>
             <div class="por-block"><span data-i18n="por"></span></div>
           </div>
         </div>
@@ -328,13 +300,6 @@
             <div class="cert-info">
               <strong data-i18n="cert_qms_title"></strong>
               <span class="cert-code">QMS</span>
-            </div>
-          </div>
-          <div class="cert-card cert-pending">
-            <div class="cert-icon">🔄</div>
-            <div class="cert-info">
-              <strong data-i18n="cert_licenses_title"></strong>
-              <p data-i18n="cert_licenses_desc"></p>
             </div>
           </div>
         </div>
@@ -398,8 +363,8 @@
   </main>
 
   <footer>
-    <span>© 2025 FB Logistics & Number One — NCS Group</span>
-    <span>Express-Rate valid from 02/2025</span>
+    <span>© 2026 FB Logistics & Number One</span>
+    <span>Express-Rate valid from 02/2026</span>
   </footer>
 
   <script src="app.js"></script>
