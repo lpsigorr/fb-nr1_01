@@ -36,6 +36,8 @@ header {
   height: 68px;
 }
 .brand-block { display: flex; align-items: center; gap: 20px; }
+.brand-block a { display: flex; align-items: center; }
+.brand-block a:hover { opacity: 0.85; transition: opacity 0.15s; }
 .header-logo { height: 44px; width: auto; object-fit: contain; }
 .nr1-logo { height: 50px; }
 .logo-divider { width: 1px; height: 36px; background: var(--border); }
