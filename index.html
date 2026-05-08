@@ -13,12 +13,14 @@
   <header>
     <div class="header-inner">
       <div class="brand-block">
-        <a href="https://www.fblogistics.be/en/" target="_blank" rel="noopener">
+        <a href="https://www.fblogistics.be/en/" target="_blank" rel="noopener" class="logo-link">
           <img src="images/logo-fb.png" alt="FB Logistics" class="header-logo" />
+          <span class="logo-link-hint">↗</span>
         </a>
         <div class="logo-divider"></div>
-        <a href="https://www.number-one.be/" target="_blank" rel="noopener">
+        <a href="https://www.number-one.be/" target="_blank" rel="noopener" class="logo-link">
           <img src="images/logo-nr1.png" alt="Number One" class="header-logo nr1-logo" />
+          <span class="logo-link-hint">↗</span>
         </a>
       </div>
       <div class="header-right">
@@ -212,7 +214,7 @@
             <div class="sspecs">
               <div class="sspec"><span>20T</span><label data-i18n="stat_weight"></label></div>
               <div class="sspec"><span>70 m³</span><label data-i18n="stat_volume"></label></div>
-              <div class="sspec"><span>28 pal.</span><label data-i18n="stat_pallets"></label></div>
+              <div class="sspec"><span>28 E pal.</span><label data-i18n="stat_pallets"></label></div>
             </div>
             <div class="trailer-chips"><span>BOX</span><span>BACHÉ</span><span>FRIGO</span><span class="pharma-chip">PHARMA</span></div>
             <div class="por-block por-link"><a href="mailto:sales@fblogistics.be" data-i18n="por"></a></div>
@@ -230,7 +232,7 @@
             <div class="sspecs">
               <div class="sspec"><span>24T</span><label data-i18n="stat_weight"></label></div>
               <div class="sspec"><span>85 m³</span><label data-i18n="stat_volume"></label></div>
-              <div class="sspec"><span>34 pal.</span><label data-i18n="stat_pallets"></label></div>
+              <div class="sspec"><span>34 E pal.</span><label data-i18n="stat_pallets"></label></div>
             </div>
             <div class="por-block por-link"><a href="mailto:sales@fblogistics.be" data-i18n="por"></a></div>
           </div>
@@ -247,7 +249,7 @@
             <div class="sspecs">
               <div class="sspec"><span>24T</span><label data-i18n="stat_weight"></label></div>
               <div class="sspec"><span>85 m³</span><label data-i18n="stat_volume"></label></div>
-              <div class="sspec"><span>34 pal.</span><label data-i18n="stat_pallets"></label></div>
+              <div class="sspec"><span>34 E pal.</span><label data-i18n="stat_pallets"></label></div>
             </div>
             <div class="trailer-chips"><span class="pharma-chip">PHARMA</span></div>
             <div class="por-block por-link"><a href="mailto:sales@fblogistics.be" data-i18n="por"></a></div>
@@ -265,7 +267,7 @@
             <div class="sspecs">
               <div class="sspec"><span>24T</span><label data-i18n="stat_weight"></label></div>
               <div class="sspec"><span>85 m³</span><label data-i18n="stat_volume"></label></div>
-              <div class="sspec"><span>34 pal.</span><label data-i18n="stat_pallets"></label></div>
+              <div class="sspec"><span>34 E pal.</span><label data-i18n="stat_pallets"></label></div>
             </div>
             <div class="trailer-chips"><span class="pharma-chip">PHARMA</span></div>
             <div class="por-block por-link"><a href="mailto:sales@fblogistics.be" data-i18n="por"></a></div>
@@ -283,7 +285,7 @@
             <div class="sspecs">
               <div class="sspec"><span>24T</span><label data-i18n="stat_weight"></label></div>
               <div class="sspec"><span>98 m³</span><label data-i18n="stat_volume"></label></div>
-              <div class="sspec"><span>34 pal.</span><label data-i18n="stat_pallets"></label></div>
+              <div class="sspec"><span>34 E pal.</span><label data-i18n="stat_pallets"></label></div>
             </div>
             <div class="trailer-chips"><span>BOX</span><span>BACHÉ</span><span>FRIGO</span><span class="pharma-chip">PHARMA</span></div>
             <div class="por-block por-link"><a href="mailto:sales@fblogistics.be" data-i18n="por"></a></div>
@@ -327,17 +329,14 @@
           <div class="cbrand nr-brand">Number One</div>
           <h3 data-i18n="contact_nr1_title"></h3>
           <p class="crole" data-i18n="contact_nr1_role"></p>
-          <div class="cperson">
-            <span class="cicon">👤</span>
-            <div><strong>Yassin Allali</strong><a class="cemail" href="mailto:yassin@number-one.be">yassin@number-one.be</a></div>
-          </div>
-          <div class="cperson">
-            <span class="cicon">👤</span>
-            <div><strong>Eric Falaux</strong><a class="cemail" href="mailto:eric@number-one.be">eric@number-one.be</a></div>
-          </div>
+          
           <div class="cperson">
             <span class="cicon">📬</span>
             <div><strong>Express</strong><a class="cemail" href="mailto:express@number-one.be">express@number-one.be</a></div>
+          </div>
+          <div class="cperson">
+            <span class="cicon">📞</span>
+            <div><strong data-i18n="contact_phone"></strong><a class="cemail cphone" href="tel:+3227884050">+32 (0)2 788 40 50</a></div>
           </div>
         </div>
 
@@ -345,13 +344,14 @@
           <div class="cbrand fb-brand">FB Logistics</div>
           <h3 data-i18n="contact_fb_title"></h3>
           <p class="crole" data-i18n="contact_fb_role"></p>
-          <div class="cperson">
-            <span class="cicon">👤</span>
-            <div><strong>Anna Zarandia</strong><a class="cemail" href="mailto:anna.zarandia@fblogistics.be">anna.zarandia@fblogistics.be</a></div>
-          </div>
+          
           <div class="cperson">
             <span class="cicon">📬</span>
             <div><strong>Sales</strong><a class="cemail" href="mailto:sales@fblogistics.be">sales@fblogistics.be</a></div>
+          </div>
+          <div class="cperson">
+            <span class="cicon">📞</span>
+            <div><strong data-i18n="contact_phone"></strong><a class="cemail cphone" href="tel:+3224276004">+32 2 427 60 04</a></div>
           </div>
         </div>
 
