@@ -16,7 +16,7 @@ const translations = {
 
     fb_subtitle:          "Type F · Semi-Trailers",
     fb_desc:              "Heavy transport from 1g to 33 tonnes. 5 trailer configurations, all managed by the Truck Department.",
-    fb_about:             "For over 20 years, FB Logistics has specialised in express transport across Belgium and all of Europe — from 1 gram to 33 tonnes. We handle couriers, pallets and full loads with tailored solutions for professionals, including chauffeur-driven vehicles. Speed, reliability and trust are our core values.",
+    fb_about:             "For over 20 years, FB Logistics has specialised in express transport across Belgium and all of Europe — from 1 gram to 33 tonnes. We handle general cargo, ADR dangerous goods, temperature-controlled frigo transport and pharmaceutical logistics. Tailored solutions for professionals, including chauffeur-driven vehicles.",
     fb_notice:            "📞 All Type F bookings via INT Sales: Eddy",
 
     kf_years:             "Years of experience",
@@ -36,6 +36,7 @@ const translations = {
     vehicle_refrigerator: "Refrigerator",
     vehicle_boxtruck:     "Box Truck",
     vehicle_truck:        "Truck",
+    vehicle_truck20:      "Truck 20m³",
     cold_chip:            "❄ Cold",
     configs_2:            "2 configs",
     por:                  "💬 Price on Request",
@@ -49,6 +50,7 @@ const translations = {
     variant_normal:       "Normal",
     variant_frigo_box:    "Frigo Box",
 
+    contact_intro:        "Here is the team you can contact for national and international shipments. Click any email to open your mail client directly.",
     contact_title:        "Contact & Orders",
     contact_desc:         "Reach the right person for your shipment. Click any email to open your mail client directly.",
     contact_nr1_title:    "NR1 Orders",
@@ -57,6 +59,7 @@ const translations = {
     contact_fb_role:      "Sales & domestic freight",
     contact_general_title:"General Contact",
     contact_general_role: "All departments · international & domestic",
+    map_title:            "Our location",
 
     certs_title:              "Certifications & Compliance",
     cert_ra_title:            "Regulated Agent",
@@ -83,7 +86,7 @@ const translations = {
 
     fb_subtitle:          "Type F · Semi-remorques",
     fb_desc:              "Transport lourd de 1g à 33 tonnes. 5 configurations de remorques, toutes gérées par le département Camions.",
-    fb_about:             "Depuis plus de 20 ans, FB Logistics est spécialiste du transport express en Belgique et à l'international — de 1 gramme à 33 tonnes. Courriers, palettes ou chargements complets, nous proposons des solutions sur mesure pour les professionnels, y compris la mise à disposition de véhicules avec chauffeur. Sérieux, rapidité et confiance sont nos maîtres-mots.",
+    fb_about:             "Depuis plus de 20 ans, FB Logistics est spécialiste du transport express en Belgique et dans toute l'Europe — de 1 gramme à 33 tonnes. Nous traitons le fret général, les marchandises dangereuses ADR, le transport frigorifique et la logistique pharmaceutique. Solutions sur mesure pour les professionnels, y compris la mise à disposition de véhicules avec chauffeur.",
     fb_notice:            "📞 Toutes les réservations Type F via INT Sales : Eddy",
 
     kf_years:             "Ans d'expérience",
@@ -103,6 +106,7 @@ const translations = {
     vehicle_refrigerator: "Réfrigérateur",
     vehicle_boxtruck:     "Camion caisse",
     vehicle_truck:        "Camion",
+    vehicle_truck20:      "Camion 20m³",
     cold_chip:            "❄ Froid",
     configs_2:            "2 configs",
     por:                  "💬 Prix sur demande",
@@ -124,6 +128,8 @@ const translations = {
     contact_fb_role:      "Ventes & fret domestique",
     contact_general_title:"Contact Général",
     contact_general_role: "Tous départements · international & domestique",
+    contact_intro:        "Voici l'équipe à contacter pour vos envois nationaux et internationaux. Cliquez sur un e-mail pour ouvrir directement votre client mail.",
+    map_title:            "Notre localisation",
 
     certs_title:              "Certifications & Conformité",
     cert_ra_title:            "Agent Habilité",
@@ -150,7 +156,7 @@ const translations = {
 
     fb_subtitle:          "Type F · Opleggers",
     fb_desc:              "Zwaar transport van 1g tot 33 ton. 5 opleggerconfiguraties, allemaal beheerd door de vrachtafdeling.",
-    fb_about:             "Al meer dan 20 jaar is FB Logistics specialist in exprestransport in België en heel Europa — van 1 gram tot 33 ton. Koeriers, pallets of volledige vrachten, wij bieden oplossingen op maat voor professionals, inclusief voertuigen met chauffeur. Ernstig, snel en betrouwbaar — dat zijn onze kernwaarden.",
+    fb_about:             "Al meer dan 20 jaar is FB Logistics specialist in exprestransport in België en heel Europa — van 1 gram tot 33 ton. Wij verwerken algemene vracht, ADR-gevaarlijke goederen, gekoeld frigoTransport en farmaceutische logistiek. Oplossingen op maat voor professionals, inclusief voertuigen met chauffeur.",
     fb_notice:            "📞 Alle Type F-boekingen via INT Sales: Eddy",
 
     kf_years:             "Jaar ervaring",
@@ -170,6 +176,7 @@ const translations = {
     vehicle_refrigerator: "Koelwagen",
     vehicle_boxtruck:     "Bestelwagen",
     vehicle_truck:        "Vrachtwagen",
+    vehicle_truck20:      "Vrachtwagen 20m³",
     cold_chip:            "❄ Koel",
     configs_2:            "2 configs",
     por:                  "💬 Prijs op aanvraag",
@@ -191,6 +198,8 @@ const translations = {
     contact_fb_role:      "Verkoop & binnenlands transport",
     contact_general_title:"Algemeen Contact",
     contact_general_role: "Alle afdelingen · internationaal & binnenlands",
+    contact_intro:        "Hier is het team dat u kunt contacteren voor nationale en internationale zendingen. Klik op een e-mail om uw mailclient direct te openen.",
+    map_title:            "Onze locatie",
 
     certs_title:              "Certificeringen & Compliance",
     cert_ra_title:            "Erkend Agent",
