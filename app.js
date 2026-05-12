@@ -12,11 +12,11 @@ const translations = {
 
     nr1_subtitle:         "Express Fleet",
     nr1_desc:             "From a single parcel to full pallet loads. Fast and reliable delivery by NR1 drivers.",
-    nr1_about:            "We handle your express shipments to and from Belgium and every European country. Envelopes, pallets or bulky goods — our fleet of vans and trucks has the right vehicle for every need. Our drivers and dispatchers are fully at your service, including loading assistance. All shipments are covered by CMR insurance.",
+    nr1_about:            "We handle your express shipments to and from Belgium and all European destinations. Whether it's letters, pallets or bulky goods: thanks to our versatile fleet, we always have the right vehicle for every assignment. Our experienced drivers and dispatchers are completely at your service and also offer professional loading assistance if desired.",
 
     fb_subtitle:          "Type F · Semi-Trailers",
     fb_desc:              "Heavy transport from 1g to 33 tonnes. 5 trailer configurations, all managed by the Truck Department.",
-    fb_about:             "For over 20 years, FB Logistics has specialised in express transport across Belgium and all of Europe — from 1 gram to 33 tonnes. We handle general cargo, ADR dangerous goods, temperature-controlled frigo transport and pharmaceutical logistics. Tailored solutions for professionals, including chauffeur-driven vehicles.",
+    fb_about:             "For over 20 years, FB Logistics has been a specialist in express and custom transport in Belgium and Europe. From 1 gram to 33 tons, we handle general freight, ADR goods, refrigerated and pharmaceutical transport. Fast, safe and flexible, with tailor-made solutions.",
     fb_notice:            "📞 All Type F bookings via INT Sales: Eddy",
 
     kf_years:             "Years of experience",
@@ -57,9 +57,9 @@ const translations = {
     contact_nr1_title:    "NR1 Orders",
     contact_nr1_role:     "Types A → E · Express fleet",
     contact_fb_title:     "FB Orders",
-    contact_fb_role:      "Sales & domestic freight",
+    contact_fb_role:      "Sales & national freight",
     contact_general_title:"Sales Contact",
-    contact_general_role: "All departments · international & domestic",
+    contact_general_role: "All departments · international & national",
     map_title:            "Our location",
 
     certs_title:              "Certifications & Compliance",
@@ -83,11 +83,11 @@ const translations = {
 
     nr1_subtitle:         "Flotte Express",
     nr1_desc:             "D'un simple colis à des chargements complets. Livraison rapide et fiable par les chauffeurs NR1.",
-    nr1_about:            "Nous prenons en charge vos envois express vers et depuis la Belgique et tous les pays européens. Plis, palettes ou colis volumineux — notre flotte dispose du véhicule adapté à chaque besoin. Nos chauffeurs et dispatcheurs sont entièrement à votre service, y compris pour la manutention. Tous les envois sont couverts par une police CMR.",
+    nr1_about:            "Nous assurons vos envois express depuis et vers la Belgique et toutes les destinations européennes. Qu'il s'agisse de lettres, de palettes ou de marchandises volumineuses : grâce à notre flotte polyvalente, nous disposons toujours du véhicule adapté à chaque mission. Nos chauffeurs et dispatchers expérimentés sont entièrement à votre service et offrent également une assistance au chargement professionnelle si nécessaire.",
 
     fb_subtitle:          "Type F · Semi-remorques",
     fb_desc:              "Transport lourd de 1g à 33 tonnes. 5 configurations de remorques, toutes gérées par le département Camions.",
-    fb_about:             "Depuis plus de 20 ans, FB Logistics est spécialiste du transport express en Belgique et dans toute l'Europe — de 1 gramme à 33 tonnes. Nous traitons le fret général, les marchandises dangereuses ADR, le transport frigorifique et la logistique pharmaceutique. Solutions sur mesure pour les professionnels, y compris la mise à disposition de véhicules avec chauffeur.",
+    fb_about:             "Depuis plus de 20 ans, FB Logistics est spécialisée dans le transport express et sur mesure en Belgique et en Europe. De 1 gramme à 33 tonnes, nous assurons le fret général, les marchandises ADR, le transport frigorifique et pharmaceutique. Rapide, sûr et flexible, avec des solutions sur mesure.",
     fb_notice:            "📞 Toutes les réservations Type F via INT Sales : Eddy",
 
     kf_years:             "Ans d'expérience",
@@ -154,11 +154,11 @@ const translations = {
 
     nr1_subtitle:         "Express Vloot",
     nr1_desc:             "Van één pakket tot volledige palletzendingen. Snelle en betrouwbare levering door NR1-chauffeurs.",
-    nr1_about:            "Wij verzorgen uw expreszendingen van en naar België en alle Europese landen. Brieven, pallets of grote goederen — onze vloot heeft het juiste voertuig voor elke nood. Onze chauffeurs en dispatchers staan volledig tot uw dienst, inclusief laadassistentie. Alle zendingen zijn gedekt door een CMR-verzekering.",
+    nr1_about:            "Wij verzorgen uw expreszendingen van en naar België en alle Europese bestemmingen. Of het nu gaat om brieven, pallets of omvangrijke goederen: dankzij onze veelzijdige vloot beschikken wij steeds over het geschikte voertuig voor elke opdracht. Onze ervaren chauffeurs en dispatchers staan volledig tot uw dienst en bieden indien gewenst ook professionele laadassistentie.",
 
     fb_subtitle:          "Type F · Opleggers",
     fb_desc:              "Zwaar transport van 1g tot 33 ton. 5 opleggerconfiguraties, allemaal beheerd door de vrachtafdeling.",
-    fb_about:             "Al meer dan 20 jaar is FB Logistics specialist in exprestransport in België en heel Europa — van 1 gram tot 33 ton. Wij verwerken algemene vracht, ADR-gevaarlijke goederen, gekoeld frigoTransport en farmaceutische logistiek. Oplossingen op maat voor professionals, inclusief voertuigen met chauffeur.",
+    fb_about:             "Al meer dan 20 jaar is FB Logistics specialist in expres- en maattransport in België en Europa. Van 1 gram tot 33 ton verzorgen wij U algemene vracht, ADR-goederen, Frigo- en Farmaceutisch transport. Snel, veilig en flexibel, met oplossingen op maat.",
     fb_notice:            "📞 Alle Type F-boekingen via INT Sales: Eddy",
 
     kf_years:             "Jaar ervaring",
