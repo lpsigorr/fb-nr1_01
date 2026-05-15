@@ -127,9 +127,9 @@ const translations = {
     contact_nr1_title:    "Commandes NR1",
     contact_nr1_role:     "Types A → E · Flotte express",
     contact_fb_title:     "Commandes FB",
-    contact_fb_role:      "Ventes & fret domestique",
+    contact_fb_role:      "Ventes & fret national",
     contact_general_title:"Contact Ventes",
-    contact_general_role: "Tous départements · international & domestique",
+    contact_general_role: "Tous départements · international & national",
     contact_intro:        "Voici l'équipe à contacter pour vos envois nationaux et internationaux. Cliquez sur un e-mail pour ouvrir directement votre client mail.",
     map_title:            "Notre localisation",
 
